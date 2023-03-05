@@ -1,0 +1,185 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#titulo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070F18;
+}
+
+a{
+    color: #070F18;
+    text-decoration: none;
+}
+
+#apresentação h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+p.cinza {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#botãoServiços {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+
+#imgApresentação {
+    margin-left: 42px;
+    text-align: center;
+}
+
+#imgApresentação img {
+    width: 50%;
+}
+
+#clientes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#meusClientes {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+}
+
+.clientes {
+    text-align: center;
+}
+
+.clientes img {
+    width: 50%;
+}
+
+#immerArquitetura {
+    margin: auto;
+}
+
+h2.vermelho {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E;
+}
+
+h1.preto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+}
+
+.textoCentral {
+    text-align: center;
+}
+
+.textoCentral img {
+    width: 80px;
+}
+
+#serviços .textoCentral h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+
+#contato {
+    text-align: center;
+}
+
+#contato h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.trabalho {
+    text-align: center;
+}
+
+.trabalho img {
+    width: 500px;
+}
+
+#contato a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+#contato i {
+    width: 50px;
+    color: green;
+}
